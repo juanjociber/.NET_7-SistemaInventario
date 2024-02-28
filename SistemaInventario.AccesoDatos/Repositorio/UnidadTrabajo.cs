@@ -19,16 +19,14 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             Bodega = new BodegaRepositorio(_db);
         }   
 
-        public IBodegaRepositorio Bodega => throw new NotImplementedException();
-
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _db.Dispose();
         }
 
-        public Task Guardar()
+        public async Task Guardar()
         {
-            throw new NotImplementedException();
+            await _db.SaveChangesAsync();
         }
     }
 }

@@ -29,7 +29,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
         public async Task<T> Obtener(int id)
         {
-            return await dbSet.FindAsync(); // select * from (solo por ID)
+            return await dbSet.FindAsync(id); // select * from (solo por ID)
         }
 
         public async Task<IEnumerable<T>> ObtenerTodos(Expression<Func<T, bool>> filtro = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string incluirPropiedades = null, bool isTracking = true)
