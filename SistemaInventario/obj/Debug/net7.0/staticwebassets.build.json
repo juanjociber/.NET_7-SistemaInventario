@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LNaqb2jmcFiuIKxxZyc3dhYLr0/d9rjAPN8rMWx5CI0=",
+  "Hash": "y71k5xP+vLFT+4EjEwPkiBLiENRXvcE5YmZe9yBBgKw=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -1105,12 +1105,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\Bodega.js",
+      "Identity": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\bodega.js",
       "SourceId": "SistemaInventario",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\",
       "BasePath": "_content/SistemaInventario",
-      "RelativePath": "js/Bodega.js",
+      "RelativePath": "js/bodega.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1119,7 +1119,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Bodega.js"
+      "OriginalItemSpec": "wwwroot\\js\\bodega.js"
+    },
+    {
+      "Identity": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\categoria.js",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "js/categoria.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoria.js"
+    },
+    {
+      "Identity": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\marca.js",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "js/marca.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\marca.js"
     },
     {
       "Identity": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\site.js",
