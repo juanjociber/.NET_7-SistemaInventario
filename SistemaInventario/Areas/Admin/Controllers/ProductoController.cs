@@ -154,7 +154,7 @@ namespace SistemaInventario.Areas.Admin.Controllers
             var lista = await _unidadTrabajo.Producto.ObtenerTodos();
             if(id == 0)
             {
-                valor = lista.Any(b=>b.NumeroSerie.ToLower().Trim()==serie.ToLower());
+                valor = lista.Any(b=>b.NumeroSerie.ToLower().Trim() == serie.ToLower());
             }
             else
             {

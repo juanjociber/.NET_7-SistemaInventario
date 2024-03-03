@@ -25,7 +25,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <label>Número de Serie</label>
-                            <input asp-for="Producto.NumeroSerie" class="form-control" />
+                            <input asp-for="Producto.NumeroSerie" class="form-control" id="serie"/>
                             <span asp-validation-for="Producto.NumeroSerie" class="text-danger"></span>
                         </div>
                     </div>
@@ -132,6 +132,9 @@
     <partial name="_ValidationScriptsPartial"/>
 
     <script type="text/javascript">
+        document.getElementById("serie").addEventListener('change', function () {
+            validarSerie();
+        });
 
         function validarImagen(){
             if(document.getElementById("imagenId").value=="")
@@ -140,6 +143,21 @@
                 return false;
             }
             return true;
+        }
+        function validarSerie() {
+            var url = '@Url.Content("~/")' + "Admin/Producto/ValidarSerie";
+            var id = "#id";
+            var serie = '#serie';
+
+            $.getJSON(url, { id: $(id).val(), serie: $(serie).val() }, function (data) {
+                $.each(data, function (key, value) {
+                    if (value) {
+                        var serie = document.getElementById("serie");
+                        swal("Error", "Serie ya existe", "error");
+                        serie.value = "";
+                    }
+                });
+            })
         }
     </script>
 

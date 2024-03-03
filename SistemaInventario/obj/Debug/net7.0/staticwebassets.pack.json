@@ -13,12 +13,44 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\2deb1117-d872-43d1-9b35-f7de29d0f528.JPG",
-      "PackagePath": "staticwebassets\\imagenes\\producto\\2deb1117-d872-43d1-9b35-f7de29d0f528.JPG"
+      "Id": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\icono.ico",
+      "PackagePath": "staticwebassets\\imagenes\\icono.ico"
     },
     {
-      "Id": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\7c6bdce4-5c19-43f2-b571-c6a600266c6e.JPG",
-      "PackagePath": "staticwebassets\\imagenes\\producto\\7c6bdce4-5c19-43f2-b571-c6a600266c6e.JPG"
+      "Id": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\icono.png",
+      "PackagePath": "staticwebassets\\imagenes\\icono.png"
+    },
+    {
+      "Id": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\6918fb97-73d4-4ba6-80f7-b2d2f5dd7577.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\6918fb97-73d4-4ba6-80f7-b2d2f5dd7577.JPG"
+    },
+    {
+      "Id": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\75f93bfb-f6a2-45ad-974b-a881cd9cc233.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\75f93bfb-f6a2-45ad-974b-a881cd9cc233.JPG"
+    },
+    {
+      "Id": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\9e31802b-04f3-4a01-a560-16bbee79f5c8.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\9e31802b-04f3-4a01-a560-16bbee79f5c8.JPG"
+    },
+    {
+      "Id": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\a4fac81a-d3a9-48eb-8397-b1a84f472f54.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\a4fac81a-d3a9-48eb-8397-b1a84f472f54.JPG"
+    },
+    {
+      "Id": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\a530d6dc-2386-4f77-9590-887d2599c522.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\a530d6dc-2386-4f77-9590-887d2599c522.JPG"
+    },
+    {
+      "Id": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\b79f291a-32ab-4111-8be2-04639ccfa4f9.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\b79f291a-32ab-4111-8be2-04639ccfa4f9.JPG"
+    },
+    {
+      "Id": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\c28b5649-d6ed-40ca-82f7-8d860b81f98d.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\c28b5649-d6ed-40ca-82f7-8d860b81f98d.JPG"
+    },
+    {
+      "Id": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\f62d0ac1-9516-4d7a-8c22-d364577eb13f.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\f62d0ac1-9516-4d7a-8c22-d364577eb13f.JPG"
     },
     {
       "Id": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\bodega.js",

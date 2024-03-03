@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using SistemaInventario.AccesoDatos.Repositorio;
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
 using SistemaInventario.Data;
+using System.Text.Json.Serialization;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +19,13 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 //Agregando servicio de Unidad de Trabajo
 builder.Services.AddScoped<IUnidadTrabajo, UnidadTrabajo>();
+
+var options = new JsonSerializerOptions
+{
+    ReferenceHandler = ReferenceHandler.Preserve,
+    MaxDepth = 64 // Puedes ajustar este valor según tus necesidades
+};
+
 
 var app = builder.Build();
 
