@@ -13,8 +13,12 @@ namespace SistemaInventario.Data
 
         //Espacio para todos los Modelos
         public DbSet<Bodega> Bodegas { get; set; }
+        
         public DbSet<Categoria> Categorias { get; set; }
-        public DbSet<Marca> Marcas { get; set; } 
+        
+        public DbSet<Marca> Marcas { get; set; }
+        
+        public DbSet<Producto> Productos { get; set; }
 
 
         //Fluent API
