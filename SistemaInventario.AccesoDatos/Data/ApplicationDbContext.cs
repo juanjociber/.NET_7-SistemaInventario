@@ -20,6 +20,8 @@ namespace SistemaInventario.Data
         
         public DbSet<Producto> Productos { get; set; }
 
+        public DbSet<UsuarioAplicacion> UsuarioAplicacion { get; set; }
+
 
         //Fluent API
         protected override void OnModelCreating(ModelBuilder builder)
