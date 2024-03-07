@@ -32,6 +32,6 @@ namespace SistemaInventario.Modelos
         public string Pais { get; set; }
 
         [NotMapped] //No permite que se agregue a la tabla de la DB
-        public string Roles { get; set; }
+        public string Role { get; set; }
     }
 }

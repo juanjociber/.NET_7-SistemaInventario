@@ -5,6 +5,8 @@ using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
 using SistemaInventario.Data;
 using System.Text.Json.Serialization;
 using System.Text.Json;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using SistemaInventario.Utilidades;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,18 +16,25 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddDefaultTokenProviders()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
 //Agregando servicio de Unidad de Trabajo
 builder.Services.AddScoped<IUnidadTrabajo, UnidadTrabajo>();
+
+//Servicios para paginas RAZOR
+builder.Services.AddRazorPages();
+
+//Agregando Servicio
+builder.Services.AddSingleton<IEmailSender, EmailSender>();
 
 var options = new JsonSerializerOptions
 {
     ReferenceHandler = ReferenceHandler.Preserve,
-    MaxDepth = 64 // Puedes ajustar este valor según tus necesidades
+    MaxDepth = 64 // Puedes ajustar este valor segï¿½n tus necesidades
 };
-
 
 var app = builder.Build();
 

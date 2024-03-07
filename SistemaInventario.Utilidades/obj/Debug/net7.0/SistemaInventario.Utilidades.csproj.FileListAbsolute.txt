@@ -9,3 +9,4 @@ D:\C#\.NET7\SistemaInventario\SistemaInventario.Utilidades\obj\Debug\net7.0\Sist
 D:\C#\.NET7\SistemaInventario\SistemaInventario.Utilidades\obj\Debug\net7.0\refint\SistemaInventario.Utilidades.dll
 D:\C#\.NET7\SistemaInventario\SistemaInventario.Utilidades\obj\Debug\net7.0\SistemaInventario.Utilidades.pdb
 D:\C#\.NET7\SistemaInventario\SistemaInventario.Utilidades\obj\Debug\net7.0\ref\SistemaInventario.Utilidades.dll
+D:\C#\.NET7\SistemaInventario\SistemaInventario.Utilidades\obj\Debug\net7.0\SistemaInventario.Utilidades.csproj.AssemblyReference.cache
