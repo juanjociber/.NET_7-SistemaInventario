@@ -11,11 +11,11 @@ namespace SistemaInventario.Modelos
 {
     public class UsuarioAplicacion : IdentityUser
     {
-        [Required(ErrorMessage ="Nombres es requerido")]
+        [Required(ErrorMessage ="Nombres son requeridos")]
         [MaxLength(80)]
         public string Nombres { get; set; }
 
-        [Required(ErrorMessage = "Apellidos es requerido")]
+        [Required(ErrorMessage = "Apellidos son requeridos")]
         [MaxLength(80)]
         public string Apellidos { get; set; }
 
@@ -23,7 +23,7 @@ namespace SistemaInventario.Modelos
         [MaxLength(200)]
         public string Direccion { get; set; }
 
-        [Required(ErrorMessage = "Ciudad es requerido")]
+        [Required(ErrorMessage = "Ciudad es requerida")]
         [MaxLength(60)]
         public string Ciudad { get; set; }
 

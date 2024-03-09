@@ -128,6 +128,7 @@ namespace SistemaInventario.Areas.Identity.Pages.Account
         public async Task OnGetAsync(string returnUrl = null)
         {
             ReturnUrl = returnUrl;
+
             //Creando instancia de INPUT para crear nuestra lista de roles
             Input = new InputModel()
             {
@@ -136,7 +137,6 @@ namespace SistemaInventario.Areas.Identity.Pages.Account
                     Text = l,
                     Value =l
                 })
-
             };
 
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();

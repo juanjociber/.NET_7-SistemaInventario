@@ -14,11 +14,28 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
+    //Agergando clase ErrorDescriber para personalizar errores
+    .AddErrorDescriber<ErrorDescriber>()
     .AddDefaultTokenProviders()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+//Cambiando reglas del password
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = true;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    //Permite que como mínimo el password tenga 6 caracteres
+    options.Password.RequiredLength = 6;
+    //Permte que se repita al menos una vez uno de los caracteres
+    options.Password.RequiredUniqueChars = 1;
+});
+
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 //Agregando servicio de Unidad de Trabajo
