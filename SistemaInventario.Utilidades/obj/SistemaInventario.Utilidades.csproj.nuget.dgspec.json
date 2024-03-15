@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {}
+    "D:\\.NET\\.NET_7\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {}
   },
   "projects": {
-    "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+    "D:\\.NET\\.NET_7\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+        "projectUniqueName": "D:\\.NET\\.NET_7\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
         "projectName": "SistemaInventario.Utilidades",
-        "projectPath": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+        "projectPath": "D:\\.NET\\.NET_7\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
         "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario.Utilidades\\obj\\",
+        "outputPath": "D:\\.NET\\.NET_7\\SistemaInventario\\SistemaInventario.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

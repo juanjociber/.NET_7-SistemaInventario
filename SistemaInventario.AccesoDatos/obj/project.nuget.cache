@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Unj/cwpZw2kMQmfyuxXPIV+ma0tvQCDARtyWfuZGAhkIRfFg6HuVXUgccBIw8f7JthhXrGLdqItCGp6wh4XCCQ==",
+  "dgSpecHash": "UiIAYIml63Cn66cjUXaP3DOpHbiNj1twuh/pin+MMxfPFBrX5u6kmHpsO28XJUYuzYR6Wjylg09VHv8QqaMWqA==",
   "success": true,
-  "projectFilePath": "D:\\C#\\.NET7\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
+  "projectFilePath": "D:\\.NET\\.NET_7\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Juan\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Juan\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

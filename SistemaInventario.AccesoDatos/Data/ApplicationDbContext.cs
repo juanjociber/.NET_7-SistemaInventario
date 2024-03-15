@@ -22,6 +22,12 @@ namespace SistemaInventario.Data
 
         public DbSet<UsuarioAplicacion> UsuarioAplicacion { get; set; }
 
+        public DbSet<BodegaProducto> BodegaProductos { get; set; }
+
+        public DbSet<Inventario> Inventarios { get; set; }
+
+        public DbSet<InventarioDetalle> InventarioDetalles { get; set; }
+        public DbSet<KardexInventario> KardexInventarios { get; set; }
 
         //Fluent API
         protected override void OnModelCreating(ModelBuilder builder)
